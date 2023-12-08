@@ -2,7 +2,6 @@
 .container{
     height: 400px;
     width: 400px;
-    border: 2px solid black;
     border-radius: 12%;
     border: none;
     box-sizing: border-box;
@@ -26,6 +25,8 @@ input{
     border: none;
     width: 300px;
     height: 30px;
+    outline: none;
+    padding-left:10px;
 }
 .login{
     text-align: center;
@@ -38,7 +39,7 @@ input{
     background-color: rgb(237, 40, 73);
     color: white;
     font-size: 25px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
     font-weight: bold;
 }
